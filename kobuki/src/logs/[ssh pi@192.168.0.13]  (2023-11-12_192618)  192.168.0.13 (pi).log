@@ -1,0 +1,287 @@
+=~=~=~=~=~=~=~=~=~=~=~= MobaXterm log 2023.11.12 19:26:18 =~=~=~=~=~=~=~=~=~=~=~=
+    
+                    MobaXterm Professional Edition v22.0                
+                   (SSH client, X server and network tools)               
+                                                                          
+      SSH session to pi@192.168.0.13                                     
+        Direct SSH      :                                               
+        SSH compression :                                               
+        SSH-browser     :                                               
+        X11-forwarding  :    (remote display is forwarded through SSH)  
+                                                                          
+      For more info, ctrl+click on help or visit our website.            
+    
+
+Linux raspberrypi 5.15.76-v7+ #1597 SMP Fri Nov 4 12:13:17 GMT 2022 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Nov 12 18:37:59 2023 from 192.168.0.10
+pi@raspberrypi:~ $ cedd kobuki/
+pi@raspberrypi:~/kobuki $ . env.sh 
+pi@raspberrypi:~/kobuki $ simple_key_op
+-bash: simple_key_op: command not found
+pi@raspberrypi:~/kobuki $ obuki-simple-keyop
+-bash: obuki-simple-keyop: command not found
+pi@raspberrypi:~/kobuki $ obuki-simple-keyopkobuki-simple-keyop
+
+Simple Keyop : Utility for driving kobuki by keyboard.
+
+Parameters
+----------
+ - linear_vel_max   [1]
+ - linear_vel_step  [0.05]
+ - angular_vel_max  [6.6]
+ - angular_vel_step [0.33]
+
+Reading from keyboard
+---------------------
+Forward/back arrows : linear velocity incr/decr.
+Right/left arrows : angular velocity incr/decr.
+Spacebar : reset linear/angular velocities.
+q : quit.
+
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+
+Location : /home/pi/kobuki/src/ecl_core/ecl_time/src/lib/sleep_pos.cpp:44 
+Flag     : This operation was interrupted.
+Detail   : A posix signal interrupted the sleep.
+pi@raspberrypi:~/kobuki $ kobuki-simple-keyop
+
+Simple Keyop : Utility for driving kobuki by keyboard.
+
+Parameters
+----------
+ - linear_vel_max   [1]
+ - linear_vel_step  [0.05]
+ - angular_vel_max  [6.6]
+ - angular_vel_step [0.33]
+
+Reading from keyboard
+---------------------
+Forward/back arrows : linear velocity incr/decr.
+Right/left arrows : angular velocity incr/decr.
+Spacebar : reset linear/angular velocities.
+q : quit.
+
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+
+Location : /home/pi/kobuki/src/ecl_core/ecl_time/src/lib/sleep_pos.cpp:44 
+Flag     : This operation was interrupted.
+Detail   : A posix signal interrupted the sleep.
+^Cpi@raspberrypi:~/kobuki $ ^C
+pi@raspberrypi:~/kobuki $ kobuki-simple-keyop
+
+Simple Keyop : Utility for driving kobuki by keyboard.
+
+Parameters
+----------
+ - linear_vel_max   [1]
+ - linear_vel_step  [0.05]
+ - angular_vel_max  [6.6]
+ - angular_vel_step [0.33]
+
+Reading from keyboard
+---------------------
+Forward/back arrows : linear velocity incr/decr.
+Right/left arrows : angular velocity incr/decr.
+Spacebar : reset linear/angular velocities.
+q : quit.
+
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+
+Location : /home/pi/kobuki/src/ecl_core/ecl_time/src/lib/sleep_pos.cpp:44 
+Flag     : This operation was interrupted.
+Detail   : A posix signal interrupted the sleep.
+pi@raspberrypi:~/kobuki $ kobuki-simple-keyop
+
+Simple Keyop : Utility for driving kobuki by keyboard.
+
+Parameters
+----------
+ - linear_vel_max   [1]
+ - linear_vel_step  [0.05]
+ - angular_vel_max  [6.6]
+ - angular_vel_step [0.33]
+
+Reading from keyboard
+---------------------
+Forward/back arrows : linear velocity incr/decr.
+Right/left arrows : angular velocity incr/decr.
+Spacebar : reset linear/angular velocities.
+q : quit.
+
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+
+Location : /home/pi/kobuki/src/ecl_core/ecl_time/src/lib/sleep_pos.cpp:44 
+Flag     : This operation was interrupted.
+Detail   : A posix signal interrupted the sleep.
+pi@raspberrypi:~/kobuki $ kobuki-simple-keyop
+
+Simple Keyop : Utility for driving kobuki by keyboard.
+
+Parameters
+----------
+ - linear_vel_max   [1]
+ - linear_vel_step  [0.05]
+ - angular_vel_max  [6.6]
+ - angular_vel_step [0.33]
+
+Reading from keyboard
+---------------------
+Forward/back arrows : linear velocity incr/decr.
+Right/left arrows : angular velocity incr/decr.
+Spacebar : reset linear/angular velocities.
+q : quit.
+
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+current pose: [x: 0, y: 0, heading: 0]
+
+Location : /home/pi/kobuki/src/ecl_core/ecl_time/src/lib/sleep_pos.cpp:44 
+Flag     : This operation was interrupted.
+Detail   : A posix signal interrupted the sleep.
+pi@raspberrypi:~/kobuki $ 
+Network error: Software caused connection abort
+
+
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+    
+                    MobaXterm Professional Edition v22.0                
+                   (SSH client, X server and network tools)               
+                                                                          
+      SSH session to pi@192.168.0.13                                     
+        Direct SSH      :                                               
+        SSH compression :                                               
+        SSH-browser     :                                               
+        X11-forwarding  :    (remote display is forwarded through SSH)  
+                                                                          
+      For more info, ctrl+click on help or visit our website.            
+    
+
+Linux raspberrypi 5.15.76-v7+ #1597 SMP Fri Nov 4 12:13:17 GMT 2022 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Nov 12 22:10:58 2023 from 192.168.0.10
+pi@raspberrypi:~ $ cd kobuki/
+pi@raspberrypi:~/kobuki $ . env.sh 
+pi@raspberrypi:~/kobuki $ ./libSonar/ultrasonic_sensor_app 
+Distance: -1 cm
+^C
+pi@raspberrypi:~/kobuki $ ./libSonar/ultrasonic_sensor_app 
+Distance: 160.582 cm
+^C
+pi@raspberrypi:~/kobuki $ ./libSonar/ultrasonic_sensor_app 
+Distance: -1 cm
+Distance: 174.131 cm
+Distance: 170.68 cm
+Distance: 170.391 cm
+Distance: 170.663 cm
+Distance: 174.471 cm
+^C
+pi@raspberrypi:~/kobuki $ ./libSonar/ultrasonic_sensor_app 
+^C
+pi@raspberrypi:~/kobuki $ ./libSonar/ultrasonic_sensor_app 
+Distance: 52.19 cm
+Distance: 52.938 cm
+^C
+pi@raspberrypi:~/kobuki $ 

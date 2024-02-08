@@ -1,0 +1,32 @@
+=~=~=~=~=~=~=~=~=~=~=~= MobaXterm log 2023.11.15 22:01:10 =~=~=~=~=~=~=~=~=~=~=~=
+    
+                    MobaXterm Professional Edition v22.0                
+                   (SSH client, X server and network tools)               
+                                                                          
+      SSH session to pi@192.168.0.13                                     
+        Direct SSH      :                                               
+        SSH compression :                                               
+        SSH-browser     :                                               
+        X11-forwarding  :    (remote display is forwarded through SSH)  
+                                                                          
+      For more info, ctrl+click on help or visit our website.            
+    
+
+Linux raspberrypi 5.15.76-v7+ #1597 SMP Fri Nov 4 12:13:17 GMT 2022 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Nov 15 21:52:16 2023 from 192.168.0.10
+pi@raspberrypi:~ $ locate json.hlocate json.h
+-bash: locate: command not found
+pi@raspberrypi:~ $ sudo ln -s /usr/include/jsoncpp/json/ /usr/include/json
+sudo ln -s /usr/include/jsoncpp/json/ /usr/include/json
+
+pi@raspberrypi:~ $ 
+
+pi@raspberrypi:~ $ 
+pi@raspberrypi:~ $ 

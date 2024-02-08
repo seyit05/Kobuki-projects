@@ -1,0 +1,179 @@
+=~=~=~=~=~=~=~=~=~=~=~= MobaXterm log 2023.11.19 18:46:51 =~=~=~=~=~=~=~=~=~=~=~=
+    
+                    MobaXterm Professional Edition v22.0                
+                   (SSH client, X server and network tools)               
+                                                                          
+      SSH session to pi@192.168.0.14                                     
+        Direct SSH      :                                               
+        SSH compression :                                               
+        SSH-browser     :                                               
+        X11-forwarding  :    (remote display is forwarded through SSH)  
+                                                                          
+      For more info, ctrl+click on help or visit our website.            
+    
+
+Linux raspberrypi 5.15.76-v7+ #1597 SMP Fri Nov 4 12:13:17 GMT 2022 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Nov 19 15:39:33 2023
+pi@raspberrypi:~ $ cd kobuki/
+pi@raspberrypi:~/kobuki $ cd web_server/
+pi@raspberrypi:~/kobuki/web_server $ node server.js 
+Server running on port 3000
+New client connected
+node:internal/fs/sync:25
+  return binding.readFileUtf8(path, stringToFlags(flag));
+                 ^
+
+Error: ENOENT: no such file or directory, open 'grid_map.csv'
+    at Object.readFileUtf8 (node:internal/fs/sync:25:18)
+    at Object.readFileSync (node:fs:441:19)
+    at readFile (/home/pi/kobuki/web_server/server.js:14:19)
+    at Namespace.<anonymous> (/home/pi/kobuki/web_server/server.js:29:27)
+    at Namespace.emit (node:events:514:28)
+    at Namespace.emitReserved (/home/pi/kobuki/web_server/node_modules/socket.io/dist/typed-events.js:56:22)
+    at Namespace._doConnect (/home/pi/kobuki/web_server/node_modules/socket.io/dist/namespace.js:269:14)
+    at /home/pi/kobuki/web_server/node_modules/socket.io/dist/namespace.js:231:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'grid_map.csv'
+}
+
+Node.js v20.9.0
+pi@raspberrypi:~/kobuki/web_server $ cp "/home/pi/kobuki/grid_map.csv""/home/pi/kobuki/grid_map.csv" "/home/pi/kobuki/web_server/""/home/pi/kobuki/web_server/"
+pi@raspberrypi:~/kobuki/web_server $ cp "/home/pi/kobuki/grid_map.csv" "/home/pi/kobuki/web_server/"node server.js 
+Server running on port 3000
+New client connected
+node:internal/fs/sync:25
+  return binding.readFileUtf8(path, stringToFlags(flag));
+                 ^
+
+Error: ENOENT: no such file or directory, open 'grid_map.csv'
+    at Object.readFileUtf8 (node:internal/fs/sync:25:18)
+    at Object.readFileSync (node:fs:441:19)
+    at readFile (/home/pi/kobuki/web_server/server.js:14:19)
+    at Timeout._onTimeout (/home/pi/kobuki/web_server/server.js:38:23)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'grid_map.csv'
+}
+
+Node.js v20.9.0
+pi@raspberrypi:~/kobuki/web_server $ node server.js 
+Server running on port 3000
+New client connected
+Client disconnected
+New client connected
+Client disconnected
+New client connected
+Client disconnected
+New client connected
+Client disconnected
+New client connected
+Client disconnected
+New client connected
+Client disconnected
+New client connected
+New client connected
+Client disconnected
+Client disconnected
+New client connected
+^C
+pi@raspberrypi:~/kobuki/web_server $ node server.js 
+Server running on port 3000
+New client connected
+Client disconnected
+New client connected
+Client disconnected
+New client connected
+node:internal/fs/sync:25
+  return binding.readFileUtf8(path, stringToFlags(flag));
+                 ^
+
+Error: ENOENT: no such file or directory, open 'grid_map.csv'
+    at Object.readFileUtf8 (node:internal/fs/sync:25:18)
+    at Object.readFileSync (node:fs:441:19)
+    at readFile (/home/pi/kobuki/web_server/server.js:14:19)
+    at Timeout._onTimeout (/home/pi/kobuki/web_server/server.js:38:23)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'grid_map.csv'
+}
+
+Node.js v20.9.0
+pi@raspberrypi:~/kobuki/web_server $ node server.js 
+Server running on port 3000
+New client connected
+Client disconnected
+New client connected
+Client disconnected
+New client connected
+Client disconnected
+New client connected
+Client disconnected
+New client connected
+Client disconnected
+New client connected
+Client disconnected
+New client connected
+
+Network error: Software caused connection abort
+
+
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+    
+                    MobaXterm Professional Edition v22.0                
+                   (SSH client, X server and network tools)               
+                                                                          
+      SSH session to pi@192.168.0.14                                     
+        Direct SSH      :                                               
+        SSH compression :                                               
+        SSH-browser     :                                               
+        X11-forwarding  :    (remote display is forwarded through SSH)  
+                                                                          
+      For more info, ctrl+click on help or visit our website.            
+    
+
+Linux raspberrypi 5.15.76-v7+ #1597 SMP Fri Nov 4 12:13:17 GMT 2022 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Nov 19 20:04:54 2023
+pi@raspberrypi:~ $ cd kobuki/
+pi@raspberrypi:~/kobuki $ cd web_server/
+pi@raspberrypi:~/kobuki/web_server $ node server.js 
+Server running on port 3000
+New client connected
+Client disconnected
+New client connected
+Client disconnected
+
+Network error: Software caused connection abort
+
+
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file

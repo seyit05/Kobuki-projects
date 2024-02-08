@@ -1,0 +1,78 @@
+=~=~=~=~=~=~=~=~=~=~=~= MobaXterm log 2023.11.19 18:50:21 =~=~=~=~=~=~=~=~=~=~=~=
+    
+                    MobaXterm Professional Edition v22.0                
+                   (SSH client, X server and network tools)               
+                                                                          
+      SSH session to pi@192.168.0.14                                     
+        Direct SSH      :                                               
+        SSH compression :                                               
+        SSH-browser     :                                               
+        X11-forwarding  :    (remote display is forwarded through SSH)  
+                                                                          
+      For more info, ctrl+click on help or visit our website.            
+    
+
+Linux raspberrypi 5.15.76-v7+ #1597 SMP Fri Nov 4 12:13:17 GMT 2022 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Nov 19 15:39:53 2023 from 192.168.0.4
+pi@raspberrypi:~ $ cd kobuki/
+pi@raspberrypi:~/kobuki $ .e env.sh 
+pi@raspberrypi:~/kobuki $ ./move
+target x: 3.000 y: 0.000
+[DEBUG] Serial connection opened.
+[DEBUG] Serial connection opened, but not yet receiving data.
+[DEBUG] Serial connection opened, but not yet receiving data.
+TimeStamp:0.000. [x: 0.000, y: 0.000, heading: 0.000]. Bumper State: 0
+[DEBUG] First data received.
+[INFO] Version info - Hardware: 1.0.4. Firmware: 1.1.4
+Sensor Distance: -0.010m
+updateMap x:100 y:100 val:0
+OBSTACLES:    0
+OBSTACLES:  0   0
+OBSTACLES:0   0   0
+ADJUST_HEADING -> GO_STRAIGHT robot_mode: 0, moving_mode: GO_STRAIGHT 1
+moving longitudinal:0.000m/s, rotational:0.000 rad/s
+TimeStamp:0.703. [x: 0.000, y: 0.000, heading: 0.000]. Bumper State: 0
+Sensor Distance: -0.010m
+updateMap x:100 y:100 val:0
+OBSTACLES:    0
+OBSTACLES:  0   0
+OBSTACLES:0   0   0
+yaw_error: 0.000 position_error: 1.500
+moving longitudinal:0.200m/s, rotational:0.000 rad/s
+TimeStamp:1.406. [x: 0.000, y: 0.000, heading: 0.000]. Bumper State: 0
+^CSensor Distance: -0.010m
+updateMap x:100 y:100 val:0
+OBSTACLES:    0
+OBSTACLES:  0   0
+OBSTACLES:0   0   0
+yaw_error: 0.000 position_error: 1.500
+moving longitudinal:0.200m/s, rotational:0.000 rad/s
+stop!
+100100
+...................................................................................................   ..................................................................................................
+..................................................................................................     .................................................................................................
+.................................................................................................       ................................................................................................
+................................................................................................         ...............................................................................................
+................................................................................................    +    ...............................................................................................
+................................................................................................         ...............................................................................................
+.................................................................................................       ................................................................................................
+..................................................................................................     .................................................................................................
+...................................................................................................   ..................................................................................................
+Grid map saved to grid_map.csv
+[DEBUG] Kobuki driver destructed.
+pi@raspberrypi:~/kobuki $ 
+Network error: Software caused connection abort
+
+
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file

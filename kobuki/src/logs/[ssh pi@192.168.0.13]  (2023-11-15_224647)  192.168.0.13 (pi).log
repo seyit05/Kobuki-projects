@@ -1,0 +1,147 @@
+=~=~=~=~=~=~=~=~=~=~=~= MobaXterm log 2023.11.15 22:46:47 =~=~=~=~=~=~=~=~=~=~=~=
+    
+                    MobaXterm Professional Edition v22.0                
+                   (SSH client, X server and network tools)               
+                                                                          
+      SSH session to pi@192.168.0.13                                     
+        Direct SSH      :                                               
+        SSH compression :                                               
+        SSH-browser     :                                               
+        X11-forwarding  :    (remote display is forwarded through SSH)  
+                                                                          
+      For more info, ctrl+click on help or visit our website.            
+    
+
+Linux raspberrypi 5.15.76-v7+ #1597 SMP Fri Nov 4 12:13:17 GMT 2022 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Nov 15 22:01:10 2023 from 192.168.0.10
+pi@raspberrypi:~ $ pi@raspberrypi:~ $ pi@raspberrypi:~ $ pi@raspberrypi:~ $ pi@raspberrypi:~ $ pi@raspberrypi:~ $ pi@raspberrypi:~ $ pi@raspberrypi:~ $ pi@raspberrypi:~ $ pi@raspberrypi:~ $ pi@raspberrypi:~ $ pi@raspberrypi:~ $ pi@raspberrypi:~ $ 
+Network error: Software caused connection abort
+
+
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+    
+                    MobaXterm Professional Edition v22.0                
+                   (SSH client, X server and network tools)               
+                                                                          
+      SSH session to pi@192.168.0.13                                     
+        Direct SSH      :                                               
+        SSH compression :                                               
+        SSH-browser     :                                               
+        X11-forwarding  :    (remote display is forwarded through SSH)  
+                                                                          
+      For more info, ctrl+click on help or visit our website.            
+    
+
+Linux raspberrypi 5.15.76-v7+ #1597 SMP Fri Nov 4 12:13:17 GMT 2022 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Nov 15 23:17:14 2023 from 192.168.0.10
+rpi@raspberrypi:~ $ r
+Network error: Software caused connection abort
+
+
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+    
+                    MobaXterm Professional Edition v22.0                
+                   (SSH client, X server and network tools)               
+                                                                          
+      SSH session to pi@192.168.0.13                                     
+        Direct SSH      :                                               
+        SSH compression :                                               
+        SSH-browser     :                                               
+        X11-forwarding  :    (remote display is forwarded through SSH)  
+                                                                          
+      For more info, ctrl+click on help or visit our website.            
+    
+
+Linux raspberrypi 5.15.76-v7+ #1597 SMP Fri Nov 4 12:13:17 GMT 2022 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Nov 16 00:05:09 2023 from 192.168.0.10
+pi@raspberrypi:~ $ htp
+-bash: htp: command not found
+pi@raspberrypi:~ $ htop
+    0[0.0%]   Tasks: 62, 61 thr; 2 running  1[0.0%]   Load average: 1.82 1.10 0.50   2[||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||100.0%]   Uptime: 00:05:48  3[||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||100.0%]Mem[|||||||||||||||||||||||||||||||||||||||||||||||||||206M/922M]Swp[0K/1024M]  PID USER      PRI  NI  VIRT   RES   SHR S CPU%MEM%   TIME+  Command 1390 pi         20   0 72168 43156 10936 R 57.1  4.6  0:00.90 /usr/lib/gcc/arm-linux-gnueabihf/10/cc1plus -quiet -I /home/pi/kobuki -I /home/pi/kobuki/install/include -I /home/pi/kobuki/install/include/ei1391 pi20   0  9588  4068  2640 R 57.1  0.4  0:00.07 htop1 root       20   0 33864  8844  7048 S  0.0  0.9  0:04.52 /sbin/init136 root       20   0 45772 14616 13880 S  0.0  1.5  0:01.01 /lib/systemd/systemd-journald159 root       20   0 20408  4844  3260 S  0.0  0.5  0:01.71 /lib/systemd/systemd-udevd317 systemd-t  20   0 22288  2524  2036 S  0.0  0.3  0:00.48 /lib/systemd/systemd-timesyncd350 systemd-t  20   0 22288  2524  2036 S  0.0  0.3  0:00.02 /lib/systemd/systemd-timesyncd352 avahi      20   0  6916  2764  2504 S  0.0  0.3  0:00.42 avahi-daemon: running [raspberrypi.local]353 root       20   0  8200  2328  2152 S  0.0  0.2  0:00.02 /usr/sbin/cron -f354 messagebu  20   0  7836  3732  3188 S  0.0  0.4  0:00.68 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only367 avahi      20   0  6756   260     0 S  0.0  0.0  0:00.00 avahi-daemon: chroot helper368 root       20   0 40916  7248  5680 S  0.0  0.8  0:00.29 /usr/libexec/polkitd --no-debug390 root       20   0 26544  2868  2544 S  0.0  0.3  0:00.15 /usr/sbin/rsyslogd -n -iNONE416 root       20   0 13084  5728  5176 S  0.0  0.6  0:00.45 /lib/systemd/systemd-logind422 nobody     20   0  5312  2232  2048 S  0.0  0.2  0:00.02 /usr/sbin/thd --triggers /etc/triggerhappy/triggers.d/ --socket /run/thd.socket --user nobody --deviceglob /dev/input/event*427 root       20   0 11788  4076  3700 S  0.0  0.4  0:00.06 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant453 root       20   0 40916  7248  5680 S  0.0  0.8  0:00.00 /usr/libexec/polkitd --no-debug459 root       20   0 26544  2868  2544 S  0.0  0.3  0:00.03 /usr/sbin/rsyslogd -n -iNONE460 root       20   0 26544  2868  2544 S  0.0  0.3  0:00.01 /usr/sbin/rsyslogd -n -iNONE461 root       20   0 26544  2868  2544 S  0.0  0.3  0:00.06 /usr/sbin/rsyslogd -n -iNONE462 root       20   0  2940  2092  1700 S  0.0  0.2  0:00.02 /usr/sbin/dhcpcd -b -q489 root       20   0 27696    80     0 S  0.0  0.0  0:00.04 /usr/sbin/rngd -r /dev/hwrng490 root       20   0 27696    80     0 S  0.0  0.0  0:00.04 /usr/sbin/rngd -r /dev/hwrng491 root       20   0 27696    80     0 S  0.0  0.0  0:00.00 /usr/sbin/rngd -r /dev/hwrng492 root       20   0 27696    80     0 S  0.0  0.0  0:00.00 /usr/sbin/rngd -r /dev/hwrng496 root       20   0 40916  7248  5680 S  0.0  0.8  0:00.05 /usr/libexec/polkitd --no-debug499 root       20   0 29532  6992  5704 S  0.0  0.7  0:00.12 /usr/sbin/cupsd -l514 root       20   0 57800  8692  7420 S  0.0  0.9  0:00.38 /usr/sbin/ModemManager516 root       20   0  8264  3688  3132 S  0.0  0.4  0:00.35 /bin/login -f562 root       20   0 57800  8692  7420 S  0.0  0.9  0:00.00 /usr/sbin/ModemManager564 root       20   0 57800  8692  7420 S  0.0  0.9  0:00.03 /usr/sbin/ModemManager567 root       20   0 12408  5860  5192 S  0.0  0.6  0:00.08 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups570 root       20   0 42628  8404  7376 S  0.0  0.9  0:00.08 /usr/sbin/cups-browsed574 root       20   0 42628  8404  7376 S  0.0  0.9  0:00.00 /usr/sbin/cups-browsed575 root       20   0 42628  8404  7376 S  0.0  0.9  0:00.00 /usr/sbin/cups-browsed576 root       20   0 12032  3460  2872 S  0.0  0.4  0:00.01 wpa_supplicant -B -c/etc/wpa_supplicant/wpa_supplicant.conf -iwlan0588 root       20   0  2056   120     0 S  0.0  0.0  0:00.00 /usr/bin/hciattach /dev/serial1 bcm43xx 921600 noflow - b8:27:eb:c6:fc:23600 root       20   0 21452  7604  6800 S  0.0  0.8  0:00.11 /usr/libexec/bluetooth/bluetoothd606 pi20   0 14528  7744  6784 S  0.0  0.8  0:00.50 /lib/systemd/systemd --user607 pi20   0 37316  3564  1564 S  0.0  0.4  0:00.00 (sd-pam)650 pi9 -11 26604  4864  3948 S  0.0  0.5  0:00.03 /usr/bin/pipewire651 pi9 -11  101M  9600  7748 S  0.0  1.0  0:00.32 /usr/bin/pulseaudio --daemonize=no --log-target=journal652 pi-21   0 26604  4864  3948 S  0.0  0.5  0:00.00 /usr/bin/pipewire653 rtkit      21   1 24208  2340  2136 S  0.0  0.2  0:00.03 /usr/libexec/rtkit-daemon654 rtkit      20   0 24208  2340  2136 S  0.0  0.2  0:00.00 /usr/libexec/rtkit-daemon655 rtkit      RT   1 24208  2340  2136 S  0.0  0.2  0:00.00 /usr/libexec/rtkit-daemon656 pi20   0  8644  3808  2844 S  0.0  0.4  0:00.14 -bash658 pi20   0  7560  3100  2824 S  0.0  0.3  0:00.02 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only659 pi9 -11 19576  4708  3944 S  0.0  0.5  0:00.04 /usr/bin/pipewire-media-session661 pi-21   0 19576  4708  3944 S  0.0  0.5  0:00.00 /usr/bin/pipewire-media-sessionF1Help  F2Setup F3SearchF4FilterF5Tree  F6SortByF7Nice -F8Nice +F9Kill  F10Quit|7||3.9%90%|||||||||2589780 64920 12888 R 99.4  6.9  0:02.43616 2.611 1235 pi20   0  196M 70064 36484 S  0.6  7.4  0:09.71 /home/pi/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node --dns-result-order=ipv4first /home/pi/.vscode-server/bin/d037ac076ce 0|||||||||9.276|| 2.651|94.8%|||||||||42 106M 83364 13080 R 100.  8.8  0:03.96235197M 70884 36484 S  5.3  7.5  0:09.79 /home/pi/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node --dns-result-order=ipv4first /home/pi/.vscode-server/bin/d037ac076ce97M 708845  0:00.46 /home/pi/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node --dns-result-order=ipv4first /home/pi/.vscode-server/bin/d037ac076ce1391 pi20   0  9616  4068  2640 R  2.0  0.4  0:00.14 htop795 pi20   0 14644  5012  3992 S  0.7  0.5  0:00.02 sshd: pi@pts/2891 pi20   0 14512  4364  3424 S  0.7  0.5  0:00.26 sshd: pi@notty|7|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||100.0% 020.0|||||||5620M 9840899.7 10.4  0:05.48 352 avahi     6916  2764  2504 S  0.7  0.3  0:00.43 avahi-daemon: running [raspberrypi.local]50.79.80 /home/pi/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node --dns-result-order=ipv4first /home/pi/.vscode-server/bin/d037ac076ce0.75656 pi20   0  8644  3808  2844 S  0.0  0.4  0:00.14 -bash658 pi20   0  7560  3100  2824 S  0.0  0.3  0:00.02 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only659 pi9 -11 19576  4708  3944 S  0.0  0.5  0:00.04 /usr/bin/pipewire-media-session|.0|4|7|||||||||7135M  111M 13308 R 100. 12.1  0:07.021391 pi        9616  4068  2640 R  2.0  0.418 htop  7914644  5012  399200.03 sshd: pi@pts/2  947182M 65124 36476 S 6.9  0:27.45 /home/pi/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node /home/pi/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d352 avahi      20   0  6916  2764  2504 S  0.0  0.3  0:00.43 avahi-daemon: running [raspberrypi.local]pi@raspberrypi:~ $ csd web_koobuki/web
+web_server/  websocketpp/ 
+pi@raspberrypi:~ $ cd kobuki/web_server/
+pi@raspberrypi:~/kobuki/web_server $ npm install express socket.io papaparse
+npm install express socket.io papaparse
+
+()  idealTree: timing arborist:ctor Completed in 4ms()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps()  idealTree:web_server: sill idealTree buildDeps(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree:web_server: timing idealTree:#root Completed in 2769ms(#########)  idealTree: timing idealTree Completed in 5594ms(#########)  reify:papaparse: sill audit bulk request {(#########)  reify:papaparse: sill audit bulk request {(#########)  reify:papaparse: sill audit bulk request {(#########)  reify:papaparse: sill audit bulk request {(#########)  reify:papaparse: sill audit bulk request {(#########)  reify:papaparse: sill audit bulk request {(#########)  reify:papaparse: sill audit bulk request {(#########)  reify:papaparse: sill audit bulk request {(#########)  reify:papaparse: sill audit bulk request {(#########)  reify:papaparse: sill audit bulk request {(#########)  reify:papaparse: sill audit bulk request {(#########)  reify:papaparse: sill audit bulk request {(#########)  reify:papaparse: sill audit bulk request {(#########)  reify:papaparse: sill audit bulk request {(#########)  reify:papaparse: sill audit bulk request {(#########)  reify:papaparse: sill audit bulk request {(###########)  reify:@types/cookie: http fetch GET 200 https://registry.npmjs.org/@types/cookie/-/cookie-0.4.1.tgz 1696ms (cache miss)(###########)  reify:ms: http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.2.tgz 1686ms (cache miss)(#############)  reify:base64id: http fetch GET 200 https://registry.npmjs.org/base64id/-/base64id-2.0.0.tgz 1783ms (cache miss)(#############)  reify:cors: http fetch GET 200 https://registry.npmjs.org/cors/-/cors-2.8.5.tgz 1827ms (cache miss)(#############)  reify:cookie: http fetch GET 200 https://registry.npmjs.org/cookie/-/cookie-0.4.2.tgz 1806ms (cache miss)(##############)  reify:socket.io-parser: timing reifyNode:node_modules/engine.io/node_modules/debug Completed in 2125ms(###############)  reify:undici-types: timing reifyNode:node_modules/socket.io/node_modules/debug Completed in 2149ms(###############)  reify:undici-types: timing reifyNode:node_modules/socket.io/node_modules/debug Completed in 2149ms(################)  reify:engine.io-parser: http fetch GET 200 https://registry.npmjs.org/engine.io-parser/-/engine.io-parser-5.2.1.tgz 2138ms (cache miss)(################)  reify:engine.io-parser: http fetch GET 200 https://registry.npmjs.org/engine.io-parser/-/engine.io-parser-5.2.1.tgz 2138ms (cache miss)(#################)  reify:papaparse: http fetch GET 200 https://registry.npmjs.org/papaparse/-/papaparse-5.4.1.tgz 2210ms (cache miss)(#################)  reify:papaparse: http fetch GET 200 https://registry.npmjs.org/papaparse/-/papaparse-5.4.1.tgz 2210ms (cache miss)(#################)  reify:papaparse: http fetch GET 200 https://registry.npmjs.org/papaparse/-/papaparse-5.4.1.tgz 2210ms (cache miss)(#################)  reify:papaparse: http fetch GET 200 https://registry.npmjs.org/papaparse/-/papaparse-5.4.1.tgz 2210ms (cache miss)(#################)  reify:papaparse: http fetch GET 200 https://registry.npmjs.org/papaparse/-/papaparse-5.4.1.tgz 2210ms (cache miss)(##################)  reify:socket.io: http fetch GET 200 https://registry.npmjs.org/socket.io/-/socket.io-4.7.2.tgz 2474ms (cache miss)(##################)  reify:socket.io: http fetch GET 200 https://registry.npmjs.org/socket.io/-/socket.io-4.7.2.tgz 2474ms (cache miss)(##################)  reify:socket.io: http fetch GET 200 https://registry.npmjs.org/socket.io/-/socket.io-4.7.2.tgz 2474ms (cache miss)(##################)  reify:@types/node: timing reifyNode:node_modules/socket.io Completed in 2663ms(##################)  reify:@types/node: timing reifyNode:node_modules/socket.io Completed in 2663ms(##################)  reify:@types/node: timing reifyNode:node_modules/socket.io Completed in 2663ms
+added 23 packages, and audited 87 packages in 10s
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+pi@raspberrypi:~/kobuki/web_server $ node server.js
+node server.js
+
+Server running on port 3000
+node:internal/fs/sync:25
+  return binding.readFileUtf8(path, stringToFlags(flag));
+                 ^
+
+Error: ENOENT: no such file or directory, open 'grid_map.csv'
+    at Object.readFileUtf8 (node:internal/fs/sync:25:18)
+    at Object.readFileSync (node:fs:441:19)
+    at readFile (/home/pi/kobuki/web_server/server.js:14:19)
+    at Timeout._onTimeout (/home/pi/kobuki/web_server/server.js:32:23)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'grid_map.csv'
+}
+
+Node.js v20.9.0
+pi@raspberrypi:~/kobuki/web_server $ node server.js
+Server running on port 3000
+New client connected
+Client disconnected
+New client connected
+Client disconnected
+New client connected
+Client disconnected
+New client connected
+Client disconnected
+New client connected
+Client disconnected
+New client connected
+Client disconnected
+New client connected
+New client connected
+Client disconnected
+Client disconnected
+New client connected
+Client disconnected
+New client connected
+Client disconnected
+New client connected
+Client disconnected
